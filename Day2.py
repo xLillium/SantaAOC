@@ -1,6 +1,7 @@
 # Day Two AoC : http://adventofcode.com/day/2
 paperNeeded = 0
 ribbonNeeded = 0
+
 inputFile = open("InputDay2")
 for box in inputFile:
     boxDimensions = list(map(int,box.split("x")))

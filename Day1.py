@@ -1,10 +1,10 @@
 # Day One AoC : http://adventofcode.com/day/1
-directions = input("What are the directions for Santa?")
 floor = 0
 characterNb = 0
 firstBasement = 0
 firstCheck = True
 
+directions = input("What are the directions for Santa?")
 for character in directions:
     characterNb += + 1
     if character == "(":
