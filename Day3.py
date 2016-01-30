@@ -1,4 +1,4 @@
-# Day Two AoC : http://adventofcode.com/day/3
+# Day Three AoC : http://adventofcode.com/day/3
 # Part 1 :
 def part1():
     location = [0, 0]
