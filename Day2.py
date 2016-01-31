@@ -2,8 +2,8 @@
 paperNeeded = 0
 ribbonNeeded = 0
 
-inputFile = open("InputDay2")
-for box in inputFile:
+boxList = open("InputDay2")
+for box in boxList:
     boxDimensions = list(map(int,box.split("x")))
     l = boxDimensions[0]
     w = boxDimensions[1]
@@ -15,5 +15,5 @@ for box in inputFile:
     bowArea = l * w * h
     paperNeeded += boxArea + slackArea
     ribbonNeeded += ribbonArea + bowArea
-inputFile.close()
+boxList.close()
 print("The elves should order : ",paperNeeded," square feet of wrapping paper and ",ribbonNeeded," square feet of ribbon.")

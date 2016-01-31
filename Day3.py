@@ -45,7 +45,7 @@ def part2():
             tempLocation = santaLocation
     print("Santa and Robo-Santa visited at least once : ",len(locationSet)," houses !")
 
-menu = input("Is Santa alone (Part 1) ? Or is he with Robo-Santa (Part2) ? ")
+menu = input("Is Santa alone (Press 1 for Part 1) ? Or is he with Robo-Santa (Press 2 for Part2) ? ")
 if menu == "1":
     part1()
 elif menu == "2":
